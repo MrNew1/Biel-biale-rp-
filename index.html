@@ -63,8 +63,10 @@
             padding: 20px;
             background-color: rgba(0, 0, 0, 0.5);
             border-radius: 10px;
-            font-size: 1.1em;
+            font-size: 1em; /* Zmniejszony rozmiar czcionki */
             line-height: 1.6;
+            max-height: 80vh; /* Maksymalna wysokość */
+            overflow-y: auto; /* Przewijanie w pionie */
         }
 
         .rules h2 {
@@ -117,16 +119,58 @@
     <div class="rules">
         <h2>Zasady Serwera</h2>
         <ol>
-            <li>Szanuj innych graczy – obrażanie, trolling i agresywne zachowanie nie będą tolerowane.</li>
-            <li>Zakazane jest korzystanie z jakichkolwiek oszustw, modów lub exploitów.</li>
-            <li>Gra na serwerze wymaga odpowiedniego odgrywania postaci – nie stosuj zachowań niezgodnych z klimatem Roleplay.</li>
-            <li>Nie udostępniaj poufnych informacji oraz danych osobowych innych graczy.</li>
-            <li>Unikaj metagamingu i powergamingu – zachowaj realizm i ograniczenia gry.</li>
-            <li>Respektuj decyzje administratorów i przestrzegaj wskazówek osób odpowiedzialnych za serwer.</li>
-            <li>Używanie komunikacji poza grą (np. Discord) do ustalania działań wewnątrz gry jest zabronione.</li>
-            <li>Postaci nie powinny celowo dążyć do sytuacji kończących się ich "śmiercią" (deathmatching).</li>
-            <li>Gracze są zobowiązani do raportowania wszelkich wykroczeń i naruszeń regulaminu.</li>
-            <li>Regulamin może być zmieniany przez administrację. Nowe zasady wchodzą w życie natychmiast po ich opublikowaniu.</li>
+            <li>
+                <strong>Zasady Ogólne</strong>
+                <ol>
+                    <li>Gracze zobowiązani są do przestrzegania zasad kulturalnego zachowania wobec innych użytkowników. Zabronione są wszelkie formy wulgarności, obrażania, czy prowokacji.</li>
+                    <li>Każdy gracz powinien dążyć do tworzenia przyjaznej i pozytywnej atmosfery. Wszelkie konflikty należy rozwiązywać w sposób pokojowy i z poszanowaniem drugiej strony.</li>
+                    <li>Na serwerze obowiązuje całkowity zakaz stosowania cheatów, skryptów lub innych narzędzi umożliwiających nieuczciwą rozgrywkę.</li>
+                    <li>Reklamowanie innych serwerów, gier lub kanałów społecznościowych bez zgody administracji jest zabronione.</li>
+                    <li>Zabronione jest udostępnianie prywatnych danych innych graczy bez ich zgody.</li>
+                </ol>
+            </li>
+            <li>
+                <strong>Zasady Roleplay</strong>
+                <ol>
+                    <li>Każdy gracz zobowiązany jest do przestrzegania zasad "Real Life Roleplay" (RL-RP), co oznacza odgrywanie swojej postaci zgodnie z realnymi zachowaniami, które miałyby miejsce w prawdziwym świecie.</li>
+                    <li>Zabronione jest wykonywanie tzw. "Fail RP" (niezgodnych z rolą czynności, np. prowadzenie pojazdu bez znajomości jazdy).</li>
+                    <li>Zakazane są "Powergaming" (wymuszanie działań na innych graczach w sposób niezgodny z logiką gry) i "Metagaming" (wykorzystywanie wiedzy zdobytej poza grą, aby uzyskać przewagę nad innymi).</li>
+                    <li>Gracze muszą działać zgodnie z zasadami ruchu drogowego i prawem obowiązującym w rzeczywistej Polsce, chyba że odgrywana postać ma uzasadnione powody do ich złamania (np. postać przestępcy).</li>
+                    <li>Każda postać powinna być odpowiednio uzasadniona fabularnie. Zabronione jest "randomowe" podejmowanie działań, które nie pasują do charakteru postaci.</li>
+                </ol>
+            </li>
+            <li>
+                <strong>Zasady Komunikacji</strong>
+                <ol>
+                    <li>Na serwerze obowiązuje komunikacja zgodna z odgrywaną rolą. OOC (out of character) komunikacja powinna być ograniczona do minimum i odbywać się w wyznaczonych miejscach (np. na specjalnych kanałach tekstowych).</li>
+                    <li>Zabronione jest wysyłanie spamu, floodu, ani niepotrzebne oznaczanie innych graczy.</li>
+                    <li>Każdy gracz zobowiązany jest do używania poprawnej polszczyzny, a także unikania nadmiernego użycia skrótów czy slangu, który mógłby być niezrozumiały dla innych graczy.</li>
+                </ol>
+            </li>
+            <li>
+                <strong>Zasady Karania</strong>
+                <ol>
+                    <li>Administracja ma prawo ukarać każdego gracza, który łamie regulamin.</li>
+                    <li>Kary mogą obejmować ostrzeżenia, czasowe wykluczenie z serwera (ban) lub stałe usunięcie konta gracza.</li>
+                    <li>Każdy gracz ma prawo do odwołania się od decyzji administracji w wyznaczonym do tego miejscu.</li>
+                </ol>
+            </li>
+            <li>
+                <strong>Zasady Pojazdów</strong>
+                <ol>
+                    <li>Pojazdy należy prowadzić zgodnie z zasadami ruchu drogowego, a wszelkie formy niebezpiecznego prowadzenia pojazdu są zabronione (np. taranowanie aut, wjeżdżanie na chodniki itp.).</li>
+                    <li>Zabronione jest prowadzenie pojazdów w sposób nielogiczny (np. zbyt szybka jazda w warunkach miejskich).</li>
+                    <li>Używanie pojazdów służbowych (policja, karetka, straż pożarna) jest dozwolone wyłącznie dla graczy, którzy należą do odpowiednich frakcji.</li>
+                </ol>
+            </li>
+            <li>
+                <strong>Zasady Frakcyjne</strong>
+                <ol>
+                    <li>Każdy gracz należący do frakcji (policja, straż pożarna, pogotowie) musi przestrzegać zasad wewnętrznych danej frakcji oraz współpracować z innymi członkami.</li>
+                    <li>Zakazane jest działanie na szkodę swojej frakcji lub jej członków.</li>
+                    <li>Frakcje powinny dążyć do realistycznego odgrywania swoich ról i wypełniania swoich obowiązków, zgodnie z rzeczywistością.</li>
+                </ol>
+            </li>
         </ol>
     </div>
 
